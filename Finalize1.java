@@ -1,5 +1,8 @@
 class Finalize1{  
-public void finalize(){System.out.println("finalize called");}  
+public void finalize(){
+System.out.println("finalize called");
+System.out.println("second printout ");
+}  
 public static void main(String[] args){  
 Finalize1 f1=new Finalize1();  
 Finalize1 f2=new Finalize1();  
