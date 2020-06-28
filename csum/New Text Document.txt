@@ -1,0 +1,22 @@
+class parent
+{
+void sum()
+{
+System.out.println("Hello parent class");
+}
+}
+class child extends parent
+{
+void sum()
+{
+System.out.println("Hello child class");
+}
+}
+class st
+{
+public static void main(string args[])
+{
+child c=new child();
+c.sum();
+}
+}
